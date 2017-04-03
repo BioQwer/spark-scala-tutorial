@@ -1,6 +1,6 @@
-package hadoop
-import util.Hadoop
-import sparkstreaming.ThreadStarter
+package sparktutorial.hadoop
+import sparktutorial.util.Hadoop
+import sparktutorial.sparkstreaming.ThreadStarter
 
 /**
  * Hadoop driver for the SparkStreaming example. It actually uses the Scala process

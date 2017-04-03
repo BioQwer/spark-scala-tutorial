@@ -1,3 +1,5 @@
+package sparktutorial
+
 /**
  * This convenient driver program lets you run SparkStreaming11Main
  * with socket input.

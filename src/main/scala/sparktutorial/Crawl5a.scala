@@ -1,3 +1,5 @@
+package sparktutorial
+
 import util.{CommandLineOptions, FileUtil}
 import java.io.{File, FilenameFilter}
 import scala.io.Source

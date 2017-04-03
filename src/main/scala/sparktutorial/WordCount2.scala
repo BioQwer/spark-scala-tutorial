@@ -1,4 +1,4 @@
-// package com.foo.bar    // You could put the code in a package...
+package sparktutorial
 
 import util.FileUtil
 import org.apache.spark.{SparkConf, SparkContext}

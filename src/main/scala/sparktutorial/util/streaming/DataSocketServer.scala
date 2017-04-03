@@ -1,4 +1,4 @@
-package util.streaming
+package sparktutorial.util.streaming
 import java.net.{Socket, ServerSocket}
 import java.io.{File, PrintWriter}
 import scala.io.Source

@@ -1,4 +1,4 @@
-package util
+package sparktutorial.util
 import scala.sys.process._
 
 /**

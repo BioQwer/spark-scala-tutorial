@@ -1,4 +1,4 @@
-package util
+package sparktutorial.util
 
 /**
  * A case class used for the exercises involving SQL APIs. It represents a

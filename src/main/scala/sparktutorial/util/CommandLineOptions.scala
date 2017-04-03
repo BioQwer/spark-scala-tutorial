@@ -1,4 +1,4 @@
-package util
+package sparktutorial.util
 
 import CommandLineOptions.{Opt, NameValue, Parser}
 

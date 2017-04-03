@@ -1,5 +1,5 @@
-package hadoop
-import util.Hadoop
+package sparktutorial.hadoop
+import sparktutorial.util.Hadoop
 
 /**
  * Hadoop driver for the Joins example. It actually uses the Scala process

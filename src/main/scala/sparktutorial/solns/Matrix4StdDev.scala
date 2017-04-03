@@ -1,4 +1,6 @@
-import util.{CommandLineOptions, FileUtil}
+package sparktutorial
+
+import sparktutorial.util.{CommandLineOptions, FileUtil}
 import util.CommandLineOptions.Opt
 import util.Matrix
 import org.apache.spark.{SparkConf, SparkContext}

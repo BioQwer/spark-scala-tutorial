@@ -1,4 +1,4 @@
-package util
+package sparktutorial.util
 import java.io._
 import scala.io.Source
 

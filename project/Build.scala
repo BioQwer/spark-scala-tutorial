@@ -34,7 +34,7 @@ object Resolvers {
 // examples that explicitly use Hadoop.
 object Dependency {
   object Version {
-    val Spark        = "1.6.2"
+    val Spark        = "2.1.0"
     val ScalaTest    = "2.2.4"
     val ScalaCheck   = "1.12.2"
   }

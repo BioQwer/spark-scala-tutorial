@@ -1,3 +1,5 @@
+package sparktutorial
+
 import util.{CommandLineOptions, FileUtil}
 import util.CommandLineOptions.Opt
 import util.Matrix

@@ -1,4 +1,4 @@
-package util
+package sparktutorial.util
 
 import java.util.Date
 import java.text.SimpleDateFormat

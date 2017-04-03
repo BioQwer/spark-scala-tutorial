@@ -1,5 +1,5 @@
-package hadoop
-import util.Hadoop
+package sparktutorial.hadoop
+import sparktutorial.util.Hadoop
 
 /**
  * Hadoop driver for the NGrams example. It actually uses the Scala process

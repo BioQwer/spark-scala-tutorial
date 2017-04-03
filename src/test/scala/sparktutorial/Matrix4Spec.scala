@@ -1,6 +1,8 @@
+package sparktutorial
+
 import org.scalatest.FunSpec
 import java.io.{ByteArrayOutputStream, OutputStream, PrintStream}
-import util.FileUtil
+import sparktutorial.util.FileUtil
 
 // Run in local mode and local data.
 class Matrix4Spec extends FunSpec {

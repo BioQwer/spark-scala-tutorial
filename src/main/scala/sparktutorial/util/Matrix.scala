@@ -1,4 +1,4 @@
-package util
+package sparktutorial.util
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._

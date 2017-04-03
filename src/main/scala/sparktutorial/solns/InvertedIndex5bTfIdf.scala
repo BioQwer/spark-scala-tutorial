@@ -1,6 +1,6 @@
 package sparktutorial.solns
 
-import util.{CommandLineOptions, FileUtil}
+import sparktutorial.util.{CommandLineOptions, FileUtil}
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.SparkContext._
 

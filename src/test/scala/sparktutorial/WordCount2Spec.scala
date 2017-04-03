@@ -1,5 +1,7 @@
+package sparktutorial
+
 import org.scalatest.FunSpec
-import util.FileUtil
+import sparktutorial.util.FileUtil
 
 // Run in local mode and local data.
 class WordCount2Spec extends FunSpec {

@@ -1,4 +1,6 @@
-import util.{CommandLineOptions, FileUtil, TextUtil}
+package sparktutorial
+
+import sparktutorial.util.{CommandLineOptions, FileUtil, TextUtil}
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.SparkContext._
 
