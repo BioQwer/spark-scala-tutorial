@@ -1,5 +1,5 @@
-import sbt._
 import sbt.Keys._
+import sbt._
 
 object BuildSettings {
 
@@ -47,20 +47,22 @@ object Dependency {
 
   val scalaTest      = "org.scalatest"     %% "scalatest"       % Version.ScalaTest  % "test"
   val scalaCheck     = "org.scalacheck"    %% "scalacheck"      % Version.ScalaCheck % "test"
+  val sparkYarn      = "org.apache.spark" % "spark-yarn_2.10" % "2.1.1" % "provided" excludeAll ExclusionRule(organization = "org.apache.hadoop")
+  val hadoopClient     = "org.apache.hadoop" % "hadoop-client" % "2.7.0" % "provided"
+  val hadoopYarnClient = "org.apache.hadoop" % "hadoop-yarn-client" % "2.7.0" % "provided"
 }
 
 object Dependencies {
   import Dependency._
 
   val sparkdeps =
-    Seq(sparkCore, sparkStreaming, sparkSQL, sparkHiveSQL, // sparkRepl,
-      scalaTest, scalaCheck)
+    Seq(sparkCore, sparkStreaming, sparkSQL, sparkHiveSQL, sparkRepl,
+      scalaTest, scalaCheck, sparkYarn, hadoopClient, hadoopYarnClient)
 }
 
 object SparkBuild extends Build {
-  import Resolvers._
-  import Dependencies._
   import BuildSettings._
+  import Resolvers._
 
   val excludeSigFilesRE = """META-INF/.*\.(SF|DSA|RSA)""".r
   lazy val spark_scala_tutorial = Project(
