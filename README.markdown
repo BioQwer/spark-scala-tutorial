@@ -28,6 +28,8 @@ I'm grateful that several people have provided feedback, issue reports, and pull
 
 ## Setup Instructions
 
+Firstly do `sbt clean compile` before import in Idea
+
 You can work through the examples and exercises on a local workstation, so-called *local mode*. If you have Hadoop version 2 (YARN based) installation available, including a virtual machine "sandbox" from one of the Hadoop vendors, you can also run most of the examples in that environment. I'll refer to this arrangement as *Hadoop mode*. Finally, the exercises should be runnable in Mesos and Spark *Standalone* clusters with minor tweaks.
 
 Let's discuss setup for local mode first.
